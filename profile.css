@@ -9,20 +9,28 @@ body{
 	margin-top: -10px;
 	background-color: #1CFAB7;
 }
+#search {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 220px;
+}
 #foto{
 	width: 900px;
 	height: 350px;
 	background-color: #ffffff;  
 	display: block; 
+	border: 2px outset #E1E1E1;
     margin-left:auto;
     margin-right:auto;
     margin-top:auto;
-    margin-bottom:auto;
+    margin-bottom:30px;
     left:0;
     right:0;
     top:0;
     bottom:0;
-    border: 2px outset grey;
+    
 }
 #bg,#pp,#nama,#tombol{
 	position: absolute;
@@ -93,25 +101,42 @@ body{
 #tbl:hover{
     background-color:#13f4ff;
 }
-#desc, #bio{
+#sosmed{
+	width: 300px;
+	height: 350px;
+	background-color: #ffffff;
+	border: 2px outset #E1E1E1;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+}
+#bio{
+	width: 550px;
+	height: 300px;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-left: 530px;
+	border: 2px outset #E1E1E1;
+	padding: 10px
+}
+#desc,#bungkus {
 	position: absolute;
 }
 #desc{
-	width: 300px;
+	width: 250px;
 	height: 300px;
-	background-color: #ffffff;
-	margin-left: 215px;
 	margin-bottom: 30px;
-	border: 2px outset grey;
-	padding: 10px
-	z-index:1;
+	padding: 10px;
+	z-index: 2;
 }
-#bio{
+#bungkus{
+	margin-left: 270px;
+	margin-top: 65px;
+	z-index: 1;
+}
+#data{
 	width: 300px;
-	height: 300px;
-	background-color: #ffffff;
-	margin-left: 430px;
-	border: 2px outset grey;
-	padding: 10px
-	z-index:2;
+	height: 25px;
+	display: inline-block;
 }
