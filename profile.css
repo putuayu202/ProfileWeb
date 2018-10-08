@@ -77,7 +77,7 @@ body{
       width: 230px;
       height: 50px;
       padding:0;
-      background: #13f4ff;
+      background: #1CFAB7;
       color: #808080;
       cursor: pointer;
       display: inline-block;
@@ -85,7 +85,7 @@ body{
       font-family:  Open Sans Light;
 }
 #profil:hover{
-    background-color:#13f4ff;
+    background-color:#1CFAB7;
 }
 #tbl{
       width: 230px;
@@ -99,26 +99,33 @@ body{
       font-family:  Open Sans Light;
 }
 #tbl:hover{
-    background-color:#13f4ff;
+    background-color:#1CFAB7;
+}
+#sosmed,#bio{
+	position: absolute;
 }
 #sosmed{
 	width: 300px;
-	height: 350px;
+	height: 410px;
 	background-color: #ffffff;
 	border: 2px outset #E1E1E1;
+	margin-left: 220px;
+	z-index: 1;
 }
 .logo{
 	width: 30px;
 	height: 30px;
+	margin-left: 20px;
 }
 #bio{
 	width: 550px;
-	height: 300px;
+	height: 200px;
 	background-color: #ffffff;
 	padding: 20px;
 	margin-left: 530px;
 	border: 2px outset #E1E1E1;
 	padding: 10px
+	z-index : 2;
 }
 #desc,#bungkus {
 	position: absolute;
@@ -132,7 +139,7 @@ body{
 }
 #bungkus{
 	margin-left: 270px;
-	margin-top: 65px;
+	margin-top: 15px;
 	z-index: 1;
 }
 #data{
